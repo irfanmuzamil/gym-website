@@ -4,13 +4,13 @@ import Slider from "react-slick";
 const TestimonialData = [
   {
     id: 1,
-    name: "Dilshad",
+    name: "Waseem",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
-    name: "Prabhakar",
+    name: "Zohaib",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/102/102",
   },
@@ -22,7 +22,7 @@ const TestimonialData = [
   },
   {
     id: 5,
-    name: "Sachin",
+    name: "shazaib",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/103/103",
   },
@@ -101,7 +101,7 @@ const Testimonials = () => {
                       </h1>
                     </div>
                   </div>
-                  <p className="text-primary/20 text-9xl font-serif absolute top-0 right-0">
+                  <p className="text-primary/50 text-9xl font-serif absolute top-0 right-0">
                     ,,
                   </p>
                 </div>

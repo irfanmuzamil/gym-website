@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
-import Logo from "../../assets/logo.png";
 import DarkMode from "./DarkMode";
 import { BiPhoneCall } from "react-icons/bi";
 
@@ -9,17 +8,17 @@ export const Navlinks = [
   {
     id: 1,
     name: "SERVICES",
-    link: "/#services",
+    link: "/services",
   },
   {
     id: 2,
     name: "ABOUT",
-    link: "/#about",
+    link: "/about",
   },
   {
     id: 3,
     name: "JOIN",
-    link: "/#join",
+    link: "/join",
   },
 ];
 const Navbar = () => {
@@ -36,12 +35,12 @@ const Navbar = () => {
       <div className="container">
         <div className="flex justify-between items-center">
           <div className="sm:flex items-center gap-3 hidden font-semibold text-gray-500 dark:text-gray-400 group">
-            <BiPhoneCall className="text-primary text-2xl animate-pulse group-hover:scale-105 duration-200" />{" "}
-            +91 123456789
+            {/* < className="text-primary text-2xl animate-pulse group-hover:scale-105 duration-200" />{" "} */}
+            Fitness
           </div>
           <div>
             <img
-              src={Logo}
+              // src={Logo}
               alt=""
               className="w-16 sm:w-24 absolute top-0 left-0 sm:left-1/2 sm:-translate-x-1/2 m-2 sm:m-0 "
             />

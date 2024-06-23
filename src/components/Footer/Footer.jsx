@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "../../assets/logo.png";
 import {
   FaFacebook,
   FaInstagram,
@@ -12,17 +11,17 @@ export const Navlinks = [
   {
     id: 1,
     name: "SERVICES",
-    link: "/#services",
+    link: "/services",
   },
   {
     id: 2,
     name: "ABOUT",
-    link: "/#about",
+    link: "/about",
   },
   {
     id: 3,
     name: "JOIN",
-    link: "/#join",
+    link: "/join",
   },
 ];
 const Footer = () => {
@@ -34,7 +33,6 @@ const Footer = () => {
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-3 items-center">
           <div className="flex items-center justify-center gap-3">
-            <img src={Logo} alt="" className="w-16 " />
             <div>
               {/* Social Handle */}
               <div className="flex items-center gap-3">
@@ -50,7 +48,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="sm:block hidden">Contact us: +91 123456789</div>
+          <div className="sm:block hidden">Contact us: +92 3331234567</div>
           <nav className="hidden md:block">
             <ul className="flex items-center gap-8">
               {Navlinks.map(({ id, name, link }) => (
